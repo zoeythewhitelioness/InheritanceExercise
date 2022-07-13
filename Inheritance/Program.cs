@@ -2,18 +2,18 @@
 
 namespace Inheritance
 {
-   public class Animal
+   public class Program
     {
         private const bool V = true;
 
         static void Main(string[] args)
         {
 
-            var myBird = new Bird
+            var myBird = new Bird();
            
              myBird.WingColor = "blue";
              myBird.CanFly = V;
-             myBird.BeakLength = 3.5;
+            myBird.BeakLength = "3.5";
            
 
 
@@ -22,7 +22,7 @@ namespace Inheritance
             {
                 IsColdBlooded = true,
                 IsScaly = true,
-                Habitat = "swamp",
+                Habitat = true,
                 CanGrowTall = true
             };
 

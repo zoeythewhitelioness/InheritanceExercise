@@ -9,7 +9,7 @@ namespace Inheritance
             IsAlive = true;
             LegCount = 2;
             LandSeaAir = "Air";
-            Age = 0
+            Age = 5;
         }
 
 
